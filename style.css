@@ -1,0 +1,33 @@
+* {
+  font-family: 'Roboto';
+}
+
+.container-results {
+  font-family: 'Kameron';
+  font-weight: bold;
+  text-align: right;
+  font-size: 3rem;
+
+  .previous {
+    height: 1rem;
+    font-size: 1rem;
+    color: rgba(59, 59, 63, 0.645);
+  }
+}
+
+.container-buttons {
+  .row {
+
+    /* background-color: blue; */
+    &>* {
+      padding: 1px;
+    }
+
+    .btn-action {
+      background-color: #f0f0f0;
+      height: 3rem;
+      width: 100%;
+      font-weight: bold;
+    }
+  }
+}
